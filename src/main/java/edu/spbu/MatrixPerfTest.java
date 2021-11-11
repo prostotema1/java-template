@@ -20,13 +20,13 @@ public class MatrixPerfTest
     System.out.println("Dense Matrix time: " +(System.currentTimeMillis() - start));
 
     System.out.println("Starting loading sparse matrices");
-    m1 = new SparseMatrix(MATRIX1_NAME);
+    //m1 = new SparseMatrix(MATRIX1_NAME);
     System.out.println("1 loaded");
-    m2 = new SparseMatrix(MATRIX2_NAME);
+    //m2 = new SparseMatrix(MATRIX2_NAME);
     System.out.println("2 loaded");
     start = System.currentTimeMillis();
-    Matrix r2 = m1.mul(m2);
-    System.out.println("Sparse Matrix time: " +(System.currentTimeMillis() - start));
-    System.out.println("equals: " + r1.equals(r2));
+    //Matrix r2 = m1.mul(m2);
+    //System.out.println("Sparse Matrix time: " +(System.currentTimeMillis() - start));
+    //System.out.println("equals: " + r1.equals(r2));
   }
 }
